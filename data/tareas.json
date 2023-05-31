@@ -1,0 +1,16 @@
+[
+   {
+      "id": null,
+      "clase": 1,
+      "titulo": "Bienvenida",
+      "estado": "terminada",
+      "fecha": null
+   },
+   {
+      "id": "fc97467a-ad3f-48a1-b64a-856f7de5e802",
+      "clase": 2,
+      "titulo": "Introduccion a Node.js",
+      "estado": "en curso",
+      "fecha": "2023-05-05T00:02:16.080Z"
+   }
+]

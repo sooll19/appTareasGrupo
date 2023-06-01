@@ -12,5 +12,12 @@
       "titulo": "Introduccion a Node.js",
       "estado": "en curso",
       "fecha": "2023-05-05T00:02:16.080Z"
+   },
+   {
+      "id": "1710f5bb-de80-4257-9420-63410f779416",
+      "clase": 1,
+      "titulo": "daily diaria",
+      "estado": "pendiente",
+      "fecha": "2023-06-01T01:17:07.858Z"
    }
 ]

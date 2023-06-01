@@ -1,18 +1,18 @@
-//const {leerJSON, escribirJSON} = require ('../data')
-//const Tarea = require ('./Tarea')
+const {leerJSON, escribirJSON} = require ('../data')
+const Tarea = require ('./Tarea')
 
 module.exports = {
 tareas : leerJSON(),
 
-listar : require = ('./filtrar')
+listar : require('./listar')
 
-agregar : require = ('./agregar')
-
-
-filtrar : require = ('./filtrar')
+//agregar : require = ('./agregar')
 
 
+//filtrar : require = ('./filtrar')
 
-editar : require = ('./editar')
-eliminar : require = ('./eliminar')
+
+
+//editar : require = ('./editar')
+//eliminar : require = ('./eliminar')
 }

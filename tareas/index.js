@@ -10,8 +10,6 @@ module.exports = {
 
     filtrar : require ('./filtrar'),
 
-
-
-//editar : require = ('./editar')
+editar : require ('./editar'),
 eliminar : require('./eliminar')
 }

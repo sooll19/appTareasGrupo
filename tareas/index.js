@@ -8,7 +8,7 @@ module.exports = {
     agregar: require('./agregar'),
 
 
-    //filtrar : require = ('./filtrar')
+    filtrar : require ('./filtrar'),
 
 
 

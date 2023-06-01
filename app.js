@@ -24,13 +24,13 @@ switch (argv[2].toLowerCase()) {
       console.log(respuesta)
       break;
   case "filtrar":
-        const estados = ['pendiente','en proceso','terminado']
+        const estados = ['pendiente','en proceso','terminada']
         if(!argv[3]){
-          console.log("Error: El estado debe ser uno de los siguientes pendiente | en proceso | terminado".red);
+          console.log("Error: El estado debe ser uno de los siguientes pendiente | en proceso | terminada".red);
           break
       }
       if(!estados.includes(argv[3].toLowerCase())){
-        console.log('ERROR: El estado debe ser uno de los siguientes : pendiente | en proceso | terminado'.red);
+        console.log('ERROR: El estado debe ser uno de los siguientes : pendiente | en proceso | terminada'.red);
       break
       }
 moduloTareas.filtrar(argv[3].toLowerCase())

@@ -4,7 +4,7 @@ const Tarea = require ('./Tarea')
 module.exports = {
 tareas : leerJSON(),
 
-listar : require('./listar')
+listar : require('./listar'),
 
 //agregar : require = ('./agregar')
 
@@ -14,5 +14,5 @@ listar : require('./listar')
 
 
 //editar : require = ('./editar')
-//eliminar : require = ('./eliminar')
+eliminar : require('./eliminar')
 }
